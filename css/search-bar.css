@@ -9,10 +9,12 @@
   /* box-sizing을 통한 조절이 없다면, 오른쪽으로 밀려나게됨. padding-left 수만큼. */
   box-sizing: border-box;
   border-radius: 5px;
-  border: 0;
+  /* border: 0; */
+  border: 1px solid transparent;
   background-color: #f1f2f3;
   font-size: 13px;
   text-align: center;
+  transition: border .2s linear;
 }
 
 /* .search-bar input::placeholder {text-align: center;
@@ -20,6 +22,7 @@
 
 .search-bar input:focus {
   outline: none;
+  border-color: #fff293;
 }
 
 .search-bar i {
