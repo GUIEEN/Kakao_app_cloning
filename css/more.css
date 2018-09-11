@@ -90,6 +90,8 @@
 }
 
 .plus-friends__item i {
+  width: 20%;
+  text-align: center;
   margin-right: 20px;
 }
 
