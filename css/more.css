@@ -104,7 +104,7 @@
   background-color: white;
   padding: 20px;
   margin-bottom: 20px;
-  height: 90px;
+  /* height: 90px; */
 }
 
 .more__links .more__option {
@@ -116,7 +116,6 @@
 
 .more__links .more__option img {
   height: 45px;
-  margin-bottom: 10px;
 }
 
 .more__linkds .more__option .more__option-title {
